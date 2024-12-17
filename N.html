@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد حب سعيد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- نافذة الرمز -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <p>  أكتبي رمز الي قلتيلي عليه امس  </p>
+            <input type="text" id="code-input" placeholder="أدخل الرمز هنا" />
+            <button onclick="checkCode()">🐥</button>
+        </div>
+    </div>
+
+    <!-- محتوى الصفحة بعد إدخال الرمز -->
+    <div class="container" id="container" style="display: none;">
+        <header>
+            <h1>عيد سعيد!</h1>
+            <p>أنتِ أحلى شيء في حياتي!</p>
+        </header>
+
+        <!-- القلوب المتحركة -->
+        <div class="hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+    </div>
+
+    <div class="clouds"></div>
+    <div class="stars"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
